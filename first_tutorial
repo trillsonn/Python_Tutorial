@@ -1,0 +1,19 @@
+# age = 20
+#
+# first_name = "John"
+# last_name = "Smith"
+# new_patient = True
+# print("Welcome", first_name, last_name, "Your age is", age)
+# print(f"Welcome {first_name} {last_name}, Today you turn {age}. Enjoy your birthday!")
+# first = input("first number ")
+# second = input("second number ")
+# Sum = int(first) + int(second)
+# print(Sum)
+
+temperature = int(input("What is the temperature? "))
+if temperature > 75:
+    print("It's a hot day!")
+elif temperature < 70:
+    print("It's a cold day!")
+elif temperature <75 or temperature > 70:
+    print("Go outside! It's a perfect day!")
